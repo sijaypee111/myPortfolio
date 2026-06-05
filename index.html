@@ -319,12 +319,12 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2 class="section-title">Leave a Scroll (Contact)</h2>
-        <form onsubmit="event.preventDefault(); alert('Message dispatched safely!');">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn-submit">Send Message</button>
-        </form>
+        <form action="https://formspree.io/f/xdavklaa" method="POST">
+  <input type="text" name="name" placeholder="Your name" required>
+  <input type="email" name="email" placeholder="Your email" required>
+  <textarea name="message" placeholder="Your message" required></textarea>
+  <button type="submit">Send</button>
+</form>
     </section>
 
     <!-- Footer -->
